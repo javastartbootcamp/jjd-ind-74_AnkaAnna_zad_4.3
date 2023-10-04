@@ -15,7 +15,7 @@ public class Circle {
         this.r = r;
     }
 
-    public double calculateCircleArea(Circle circle) {
-        return 3.14 * circle.getR() * circle.getR();
+    public double calculateCircleArea() {
+        return 3.14 * this.r * this.r;
     }
 }

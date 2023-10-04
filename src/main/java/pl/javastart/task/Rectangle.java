@@ -25,7 +25,7 @@ public class Rectangle {
         this.side2 = side2;
     }
 
-    public double calculateRectPerimeter(Rectangle rectangle) {
-        return rectangle.getSide1() + rectangle.getSide2();
+    public double calculateRectPerimeter() {
+        return this.side1 + this.side2;
     }
 }

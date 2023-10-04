@@ -35,7 +35,7 @@ public class Triangle {
         this.side3 = side3;
     }
 
-    public double calculateTrianglePerimeter(Triangle triangle) {
-        return triangle.getSide1() + triangle.getSide2() + triangle.getSide3();
+    public double calculateTrianglePerimeter() {
+        return this.side1 + this.side2 + this.side3;
     }
 }

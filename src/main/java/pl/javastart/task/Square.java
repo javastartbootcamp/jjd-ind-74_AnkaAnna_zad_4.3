@@ -15,7 +15,7 @@ public class Square {
         this.side = side;
     }
 
-    public double calculateSquareArea(Square square) {
-        return square.getSide() * square.getSide();
+    public double calculateSquareArea() {
+        return this.side * this.side;
     }
 }
