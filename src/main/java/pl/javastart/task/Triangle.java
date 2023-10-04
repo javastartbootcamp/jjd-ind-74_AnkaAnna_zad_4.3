@@ -34,4 +34,8 @@ public class Triangle {
     public void setSide3(double side3) {
         this.side3 = side3;
     }
+
+    public double calculateTrianglePerimeter(Triangle triangle) {
+        return triangle.getSide1() + triangle.getSide2() + triangle.getSide3();
+    }
 }
